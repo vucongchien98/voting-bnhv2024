@@ -1,0 +1,37 @@
+---
+interface ICandidate {
+  name_female: string;
+  name_male: string;
+  image_female: string;
+  image_male: string;
+}
+
+interface ICategory {
+  title: string;
+  description: string;
+  slug: string;
+  candidates: ICandidate[];
+}
+
+interface Props {
+  category: ICategory;
+  candidates: ICandidate[];
+  index: number;
+}
+
+const { category, candidates, index } = Astro.props;
+
+/**
+ *
+ * @param _props
+ * category.title: tiêu đề hạng mục
+ * category.description: mô tả hạng mục
+ * category.slug: url hạng mục
+ * candidates: mảng danh sách ứng viên
+ * candidates.name_female: tên nữ ứng viên
+ * candidates.name_male: tên nam ứng viên
+ * candidates.image_female: ảnh nữ ứng viên
+ * candidates.image_male: ảnh nam ứng viên
+ * index: vị trí hạng mục
+ */
+---

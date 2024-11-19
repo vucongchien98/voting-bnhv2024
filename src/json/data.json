@@ -1,0 +1,341 @@
+{
+  "home": [
+    {
+        "id": 1,
+      "category": {
+        "title": "NỮ HOÀNG BƯỚC NHẢY HOÀN VŨ 2024",
+        "description": "Chú thích về giải Người đẹp được yêu thích nhất",
+        "slug": "nu-hoang-buoc-nhay-hoan-vu-2024"        
+      },
+      "candidates": [
+            {
+                "name_female": "Quỳnh Nga",
+                "name_male": "Quỳnh Nga 2",
+                "image_female": "",
+                "image_male": ""
+            },
+            {
+                "name_female": "Quỳnh Nga",
+                "name_male": "Quỳnh Nga 2",
+                "image_female": "",
+                "image_male": ""
+            },
+            {
+                "name_female": "Quỳnh Nga",
+                "name_male": "Quỳnh Nga 2",
+                "image_female": "",
+                "image_male": ""
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "category": {
+          "title": "Người đẹp được yêu thích nhất",
+          "description": "Chú thích về giải Người đẹp được yêu thích nhất",
+          "slug": "nguoi-dep-duoc-yeu-thich-nhat"        
+        },
+        "candidates": [
+              {
+                  "idCandidate": 1,
+                  "name_female": "Quỳnh Nga",
+                  "name_male": "Quỳnh Nga 2",
+                  "image_female": "",
+                  "image_male": ""
+              },
+              {
+                  "idCandidate": 2,
+                  "name_female": "Emma Lê",
+                  "name_male": "Emma Lê 2",
+                  "image_female": "",
+                  "image_male": ""
+              },
+              {
+                  "idCandidate": 3,
+                  "name_female": "Hooyeon",
+                  "name_male": "Hooyeon 2",
+                  "image_female": "",
+                  "image_male": ""
+              }
+          ]
+      },
+      {
+        "id": 3,
+        "category": {
+          "title": "Người đẹp có gương mặt đẹp nhất",
+          "description": "Chú thích về giải Người đẹp có gương mặt đẹp nhất",
+          "slug": "nguoi-dep-co-guong-mat-dep-nhat"        
+        },
+        "candidates": [
+              {
+                  "idCandidate": 1,
+                  "name_female": "Quỳnh Nga",
+                  "name_male": "Quỳnh Nga 2",
+                  "image_female": "",
+                  "image_male": ""
+              },
+              {
+                  "idCandidate": 2,
+                  "name_female": "Emma Lê",
+                  "name_male": "Emma Lê 2",
+                  "image_female": "",
+                  "image_male": ""
+              },
+              {
+                  "idCandidate": 3,
+                  "name_female": "Hooyeon",
+                  "name_male": "Hooyeon 2",
+                  "image_female": "",
+                  "image_male": ""
+              }
+          ]
+      },
+      {
+        "id": 4,
+        "category": {
+          "title": "Người đẹp toàn năng",
+          "description": "Chú thích về giải Người đẹp toàn năng",
+          "slug": "nguoi-dep-toan-nang"        
+        },
+        "candidates": [
+              {
+                  "idCandidate": 1,
+                  "name_female": "Quỳnh Nga",
+                  "name_male": "Quỳnh Nga 2",
+                  "image_female": "",
+                  "image_male": ""
+              },
+              {
+                  "idCandidate": 2,
+                  "name_female": "Emma Lê",
+                  "name_male": "Emma Lê 2",
+                  "image_female": "",
+                  "image_male": ""
+              },
+              {
+                  "idCandidate": 3,
+                  "name_female": "Hooyeon",
+                  "name_male": "Hooyeon 2",
+                  "image_female": "",
+                  "image_male": ""
+              }
+          ]
+      },
+      {
+        "id": 5,
+        "category": {
+          "title": "Người đẹp quyến rũ nhất",
+          "description": "Chú thích về giải Người đẹp quyến rũ nhất",
+          "slug": "nguoi-dep-quyen-ru-nhat"        
+        },
+        "candidates": [
+              {
+                  "idCandidate": 1,
+                  "name_female": "Quỳnh Nga",
+                  "name_male": "Quỳnh Nga 2",
+                  "image_female": "",
+                  "image_male": ""
+              },
+              {
+                  "idCandidate": 2,
+                  "name_female": "Emma Lê",
+                  "name_male": "Emma Lê 2",
+                  "image_female": "",
+                  "image_male": ""
+              },
+              {
+                  "idCandidate": 3,
+                  "name_female": "Hooyeon",
+                  "name_male": "Hooyeon 2",
+                  "image_female": "",
+                  "image_male": ""
+              }
+          ]
+      },
+      {
+        "id": 6,
+        "category": {
+          "title": "Người đẹp quý phái",
+          "description": "Chú thích về giải Người đẹp quý phái",
+          "slug": "nguoi-dep-quy-phai"        
+        },
+        "candidates": [
+              {
+                  "idCandidate": 1,
+                  "name_female": "Quỳnh Nga",
+                  "name_male": "Quỳnh Nga 2",
+                  "image_female": "",
+                  "image_male": ""
+              },
+              {
+                  "idCandidate": 2,
+                  "name_female": "Emma Lê",
+                  "name_male": "Emma Lê 2",
+                  "image_female": "",
+                  "image_male": ""
+              },
+              {
+                  "idCandidate": 3,
+                  "name_female": "Hooyeon",
+                  "name_male": "Hooyeon 2",
+                  "image_female": "",
+                  "image_male": ""
+              }
+          ]
+      },
+      {
+        "id": 7,
+        "category": {
+          "title": "Người đẹp ấn tượng",
+          "description": "Chú thích về giải Người đẹp ấn tượng",
+          "slug": "nguoi-dep-an-tuong"        
+        },
+        "candidates": [
+              {
+                  "idCandidate": 1,
+                  "name_female": "Quỳnh Nga",
+                  "name_male": "Quỳnh Nga 2",
+                  "image_female": "",
+                  "image_male": ""
+              },
+              {
+                  "idCandidate": 2,
+                  "name_female": "Emma Lê",
+                  "name_male": "Emma Lê 2",
+                  "image_female": "",
+                  "image_male": ""
+              },
+              {
+                  "idCandidate": 3,
+                  "name_female": "Hooyeon",
+                  "name_male": "Hooyeon 2",
+                  "image_female": "",
+                  "image_male": ""
+              }
+          ]
+      },
+      {
+        "id": 8,
+        "category": {
+          "title": "Người đẹp phong cách",
+          "description": "Chú thích về giải Người đẹp phong cách",
+          "slug": "nguoi-dep-phong-cach"        
+        },
+        "candidates": [
+              {
+                  "idCandidate": 1,
+                  "name_female": "Quỳnh Nga",
+                  "name_male": "Quỳnh Nga 2",
+                  "image_female": "",
+                  "image_male": ""
+              },
+              {
+                  "idCandidate": 2,
+                  "name_female": "Emma Lê",
+                  "name_male": "Emma Lê 2",
+                  "image_female": "",
+                  "image_male": ""
+              },
+              {
+                  "idCandidate": 3,
+                  "name_female": "Hooyeon",
+                  "name_male": "Hooyeon 2",
+                  "image_female": "",
+                  "image_male": ""
+              }
+          ]
+      },
+      {
+        "id": 9,
+        "category": {
+          "title": "Người đẹp ấm áp",
+          "description": "Chú thích về giải Người đẹp ấm áp",
+          "slug": "nguoi-dep-am-ap"        
+        },
+        "candidates": [
+              {
+                  "idCandidate": 1,
+                  "name_female": "Quỳnh Nga",
+                  "name_male": "Quỳnh Nga 2",
+                  "image_female": "",
+                  "image_male": ""
+              },
+              {
+                  "idCandidate": 2,
+                  "name_female": "Emma Lê",
+                  "name_male": "Emma Lê 2",
+                  "image_female": "",
+                  "image_male": ""
+              },
+              {
+                  "idCandidate": 3,
+                  "name_female": "Hooyeon",
+                  "name_male": "Hooyeon 2",
+                  "image_female": "",
+                  "image_male": ""
+              }
+          ]
+      },
+      {
+        "id": 10,
+        "category": {
+          "title": "Người đẹp bức phá",
+          "description": "Chú thích về giải Người đẹp bức phá",
+          "slug": "nguoi-dep-buc-pha"        
+        },
+        "candidates": [
+              {
+                  "idCandidate": 1,
+                  "name_female": "Quỳnh Nga",
+                  "name_male": "Quỳnh Nga 2",
+                  "image_female": "",
+                  "image_male": ""
+              },
+              {
+                  "idCandidate": 2,
+                  "name_female": "Emma Lê",
+                  "name_male": "Emma Lê 2",
+                  "image_female": "",
+                  "image_male": ""
+              },
+              {
+                  "idCandidate": 3,
+                  "name_female": "Hooyeon",
+                  "name_male": "Hooyeon 2",
+                  "image_female": "",
+                  "image_male": ""
+              }
+          ]
+      },
+      {
+        "category": {
+          "title": "Người đẹp có hình thể đẹp nhất",
+          "description": "Chú thích về giải Người đẹp có hình thể đẹp nhất",
+          "slug": "nguoi-dep-co-hinh-the-dep-nhat"        
+        },
+        "candidates": [
+              {
+                  "idCandidate": 1,
+                  "name_female": "Quỳnh Nga",
+                  "name_male": "Quỳnh Nga 2",
+                  "image_female": "",
+                  "image_male": ""
+              },
+              {
+                  "idCandidate": 2,
+                  "name_female": "Emma Lê",
+                  "name_male": "Emma Lê 2",
+                  "image_female": "",
+                  "image_male": ""
+              },
+              {
+                  "idCandidate": 3,
+                  "name_female": "Hooyeon",
+                  "name_male": "Hooyeon 2",
+                  "image_female": "",
+                  "image_male": ""
+              }
+          ]
+      }
+  ]
+}

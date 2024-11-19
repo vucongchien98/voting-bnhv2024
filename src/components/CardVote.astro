@@ -1,0 +1,25 @@
+---
+interface ICandidate {
+  name_female: string;
+  name_male: string;
+  image_female: string;
+  image_male: string;
+}
+
+interface Props {
+  candidate: ICandidate;
+  index: number;
+  totalVotes: number;
+  numberVotes: number;
+}
+
+const { candidate, index, totalVotes, numberVotes } = Astro.props;
+
+/**
+ * @props
+ * candidate: ứng viên
+ * index: vị trí ứng viên
+ * totalVotes: tổng số bầu chọn
+ * numberVotes: số bầu chọn
+ */
+---
