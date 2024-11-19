@@ -1,0 +1,22 @@
+---
+import Image from "astro/components/Image.astro";
+interface Props {
+    wrapperClass?:string;
+    wrapperElement?:string;
+    text?:string;
+    icon?: {
+        src:string;
+        width:number;
+        height:number;
+        class?:string;
+    }
+
+
+}
+const {wrapperClass,wrapperElement="button",text,icon} = Astro.props;
+let Element = `${wrapperElement}`
+---
+<Element class:list={wrapperClass}>
+    {text}
+    {icon && <Image src={icon.src} width={icon.width} height={icon.height} alt={`Ảnh ${text}`} class:list={icon.class}/>}
+</Element>

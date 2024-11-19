@@ -1,0 +1,19 @@
+---
+import Image from "astro/components/Image.astro";
+import Button from "../components/Button.astro";
+
+---
+<header id="header" class="top-4">
+    <div class="wrapper uppercase text-white flex items-center justify-between rounded-2xl"> 
+        <a href="/">
+            <Image src="/icons/saostar.svg" width={109} height={36} alt="Bước nhảy hoàng vũ"/>
+        </a>
+        <div class="list-nav text-base flex justify-between w-full" style="max-width: 544px;">
+            <a class="nav-item" href="#">Trang chủ</a>
+            <a class="nav-item" href="#">Bình chọn</a>
+            <a class="nav-item" href="#">hướng dẫn</a>
+            <a class="nav-item" href="#">hạng mục</a>
+        </div>
+        <Button text="Đăng nhập" icon={{ src:"/icons/user.svg", width: 16, height: 16, class:"mr-[10px]" }} wrapperClass="text-xs flex flex-row-reverse px-6 py-[10px] rounded-[20px] bg-purple-light uppercase"/>
+    </div>
+</header>

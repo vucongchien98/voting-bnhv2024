@@ -1,7 +1,38 @@
 ---
+import Image from 'astro/components/Image.astro';
+import Button from '../components/Button.astro';
 import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Welcome to Astro.">
-  <h1 class="text-2xl uppercase">Hello World</h1>
+  <h1 class="uppercase text-[2rem] leading-[2.925rem] text-purple-200 mt-12 text-center">hạng mục bình chọn</h1>
+  <div class="mt-9 mx-auto max-w-[1100px]">
+    <div class="flex items-center justify-between text-purple-dark text-2xl leading-[1.3]">
+      <div class="flex items-center">
+        <p class="text-xl leading-[1.3] mr-[54px]">1</p>
+        <div class="">
+          <h2>NỮ HOÀNG BƯỚC NHẢY HOÀN VŨ 2024</h2>
+          <div class="text-purple-200 text-sm leading-[1.3] font-light mt-1">Chú thích về giải Người đẹp được yêu thích nhất </div>
+        </div>
+      </div>
+      <div class="flex">
+        <div class="text-center relative ml-5">
+          <Image src="/images/candidate/ngoc-hang.png" width={64} height={56} alt="Ngoc Hang" class="aspect-[64/55] rounded"/>
+          <p class="text-[0.5rem] text-purple-dark font-light mt-2">Quỳnh Nga</p>
+          <div class="absolute text-xs bg-purple-dark text-white py-[2px] px-2 left-[-6px] top-10">1</div>
+        </div>
+        <div class="text-center relative ml-3.5">
+          <Image src="/images/candidate/ngoc-hang.png" width={64} height={56} alt="Ngoc Hang" class="aspect-[64/55] rounded"/>
+          <p class="text-[0.5rem] text-purple-dark font-light mt-2">Quỳnh Nga</p>
+          <div class="absolute text-xs bg-purple-dark text-white py-[2px] px-2 left-[-6px] top-10">1</div>
+        </div>
+        <div class="text-center relative ml-3.5">
+          <Image src="/images/candidate/ngoc-hang.png" width={64} height={56} alt="Ngoc Hang" class="aspect-[64/55] rounded"/>
+          <p class="text-[0.5rem] text-purple-dark font-light mt-2">Quỳnh Nga</p>
+          <div class="absolute text-xs bg-purple-dark text-white py-[2px] px-2 left-[-6px] top-10">1</div>
+        </div>
+      </div>
+      <Button text="Bình chọn" icon={{ src:"/icons/arrow.svg", width: 16, height: 16, class:"ml-[10px]" }} wrapperClass="text-white text-xs flex px-4 py-2 rounded-[20px] bg-purple-light uppercase"/>
+    </div>
+  </div>
 </Layout>
