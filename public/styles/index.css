@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('/fonts/Gotham/Gotham-Regular.woff2') format('woff2'),
+        url('/fonts/Gotham/Gotham-Regular.woff') format('woff');
+    font-weight: 400;
+}
+
+body {
+    font-family: "Gotham";
+    font-weight: 400;
+    line-height: 1.3;
+}
