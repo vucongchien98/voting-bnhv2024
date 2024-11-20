@@ -10,13 +10,13 @@ interface Props {
         height:number;
         class?:string;
     }
-
-
+    url:string;
+    titleClass?:string;
 }
-const {wrapperClass,wrapperElement="button",text,icon} = Astro.props;
+const {wrapperClass,wrapperElement="button",text,icon,url="", titleClass} = Astro.props;
 let Element = `${wrapperElement}`
 ---
-<Element class:list={wrapperClass}>
-    {text}
+<Element class:list={wrapperClass} href={url}>
+    <span class={titleClass}>{text}</span>
     {icon && <Image src={icon.src} width={icon.width} height={icon.height} alt={`Ảnh ${text}`} class:list={icon.class}/>}
 </Element>

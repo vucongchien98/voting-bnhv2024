@@ -7,6 +7,8 @@ export default {
 				'purple-dark': '#4C3F87',
 				'purple-light': '#9683D4',
 				'purple-200': '#7A22EC',
+				'gray-300': '#E0E0E0',
+				'pink-light': 'rgba(248, 229, 255, 0.8)'
 			},
 		},
 	},
